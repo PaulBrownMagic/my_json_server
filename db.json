@@ -1,0 +1,90 @@
+{
+	"project": {
+		"sources": [{
+				"id": "o3",
+				"name": "coronavirus.txt"
+			},
+			{
+				"id": "o4",
+				"name": "animals.txt"
+			}
+		],
+		"datasets": [{
+			"id": "o2",
+			"name": "CHINESE",
+			"sources": [{
+					"id": "o5",
+					"name": "022.ocr.pdf"
+				},
+				{
+					"id": "o6",
+					"name": "064.ocr.pdf"
+				}
+			]
+		}]
+	},
+	"o2": {
+		"summary": {
+			"count": 2,
+			"word_count": {
+				"min": 46,
+				"max": 128,
+				"mean": 87,
+				"median": 87
+			},
+			"unique_word_count": {
+				"min": 37,
+				"max": 88,
+				"mean": 62.5,
+				"median": 62.5
+			},
+			"fog_index": {
+				"min": 11.5,
+				"max": 16.05,
+				"mean": 13.275,
+				"median": 13.275
+			}
+		},
+		"children": ["o5", "o6"]
+	},
+	"o3": {
+		"name": "coronavirus.txt",
+		"text": "The coronavirus (COVID-19) pandemic has swept across the world since late 2019, causing widespread illness and death, and significantly altering daily life as we know it. The virus is caused by a type of virus called a coronavirus, which is named after its crown-like appearance when viewed under a microscope. COVID-19 is highly contagious and can be transmitted from person to person through respiratory droplets when an infected person talks, coughs, or sneezes. The COVID-19 virus primarily attacks the respiratory system, causing symptoms such as fever, coughing, and difficulty breathing. The virus is most severe in older adults and those with underlying health conditions, but it can affect people of all ages. The pandemic has resulted in significant changes in daily life, such as widespread school closures, work-from-home policies, and restrictions on public gatherings. The economic impact of the pandemic has also been severe, with millions of people losing their jobs and businesses struggling to stay afloat.",
+		"summary": {
+			"abstract": "This paper provides an overview of the coronavirus (COVID-19) pandemic, which has affected the world since late 2019. The paper covers the basic biology of the virus, including how it spreads and infects humans. It also discusses the symptoms of COVID-19 and the impact it has had on society, including the changes in daily life, the economy, and healthcare systems. Finally, the paper highlights the importance of preventative measures such as wearing masks, social distancing, and vaccination to reduce the spread of the virus.",
+			"word_count": 106,
+			"unique_word_count": 72,
+			"fog_index": 15.27
+		}
+	},
+	"o4": {
+		"name": "animals.txt",
+		"text": "Animals are a diverse group of organisms that inhabit the planet Earth. They come in all shapes and sizes, from the microscopic to the massive. There are many different types of animals, including mammals, birds, reptiles, amphibians, fish, and invertebrates. Animals are capable of complex behaviors, including communication, social interaction, and problem-solving. They are also important to the functioning of ecosystems, as they play vital roles in food chains and nutrient cycles. Unfortunately, many species of animals are threatened with extinction due to human activities such as habitat destruction, pollution, and overhunting. Conservation efforts are needed to protect these animals and their habitats for future generations.",
+		"summary": {
+			"abstract": "This paper provides an overview of the animal kingdom, which includes a diverse group of organisms that inhabit the planet Earth. The paper covers the different types of animals and their characteristics, as well as their importance to the functioning of ecosystems. It also discusses the threats facing many species of animals, including habitat destruction and pollution, and the need for conservation efforts. Finally, the paper highlights the importance of protecting these animals and their habitats for future generations.",
+			"word_count": 117,
+			"unique_word_count": 84,
+			"fog_index": 11.89
+		}
+	},
+	"o5": {
+		"name": "022.ocr.txt",
+		"text": "新型冠状病毒（COVID-19）自2019年底以来在全球肆虐，导致广泛的疾病和死亡，并显着改变了我们所知道的日常生活。病毒由一种名为冠状病毒的病毒引起，该病毒在显微镜下观察时，因其类似皇冠的外观而得名。 COVID-19高度具有传染性，可以通过呼吸道飞沫从感染者在说话、咳嗽或打喷嚏时传播给其他人。 COVID-19病毒主要攻击呼吸系统，引起发热、咳嗽和呼吸困难等症状。老年人和患有基础健康问题的人最为严重受影响，但它可以影响所有年龄段的人。大流行病导致日常生活发生了重大变化，例如广泛的学校关闭、远程办公政策以及对公共聚会的限制。大流行病对经济的影响也很严重，数百万人失业，企业艰难度日。",
+		"summary": {
+			"abstract": "本文概述了自2019年底以来肆虐全球的冠状病毒（COVID-19）大流行病。本文涵盖了病毒的基本生物学知识，包括其传播方式和感染人类的方式。它还讨论了COVID-19的症状以及它对社会的影响，包括日常生活、经济和医疗保健系统的变化。最后，本文强调了预防措施的重要性，例如戴口罩、保持社交距离和接种疫苗，以减少病毒的传播。",
+			"word_count": 128,
+			"unique_word_count": 88,
+			"fog_index": 16.05
+		}
+	},
+	"o6": {
+		"name": "064.ocr.txt",
+		"text": "动物是指能够感知和适应环境变化的一类生物。动物是指不具有光合作用的多细胞生物，包括无脊椎动物和脊椎动物两大类。无脊椎动物包括各种节肢动物、软体动物、刺胞动物等，脊椎动物则包括了鱼类、两栖动物、爬行动物、鸟类和哺乳动物等。动物是地球生物多样性的重要组成部分，也是人类社会的重要资源。",
+		"summary": {
+			"abstract": "本文介绍了动物这一类生物的概述。动物是指那些能够感知和适应环境变化的多细胞生物，包括无脊椎动物和脊椎动物两大类。无脊椎动物包括了节肢动物、软体动物和刺胞动物等，脊椎动物则包括了鱼类、两栖动物、爬行动物、鸟类和哺乳动物等。动物是地球生物多样性的重要组成部分，也是人类社会的重要资源。",
+			"word_count": 46,
+			"unique_word_count": 37,
+			"fog_index": 11.5
+		}
+	}
+}
