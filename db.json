@@ -23,30 +23,34 @@
 			]
 		}]
 	},
-	"o2": {
-		"summary": {
-			"count": 2,
-			"word_count": {
-				"min": 46,
-				"max": 128,
-				"mean": 87,
-				"median": 87
-			},
-			"unique_word_count": {
-				"min": 37,
-				"max": 88,
-				"mean": 62.5,
-				"median": 62.5
-			},
-			"fog_index": {
-				"min": 11.5,
-				"max": 16.05,
-				"mean": 13.275,
-				"median": 13.275
-			}
-		},
-		"children": ["o5", "o6"]
-	},
+  "dataset": {
+        "o2": {
+			"name": "CHINESE",
+            "summary": {
+                "count": 2,
+                "word_count": {
+                    "min": 46,
+                    "max": 128,
+                    "mean": 87,
+                    "median": 87
+                },
+                "unique_word_count": {
+                    "min": 37,
+                    "max": 88,
+                    "mean": 62.5,
+                    "median": 62.5
+                },
+                "fog_index": {
+                    "min": 11.5,
+                    "max": 16.05,
+                    "mean": 13.275,
+                    "median": 13.275
+                }
+            },
+            "children": ["o5", "o6"]
+        }
+    },
+  "source": {
 	"o3": {
 		"name": "coronavirus.txt",
 		"text": "The coronavirus (COVID-19) pandemic has swept across the world since late 2019, causing widespread illness and death, and significantly altering daily life as we know it. The virus is caused by a type of virus called a coronavirus, which is named after its crown-like appearance when viewed under a microscope. COVID-19 is highly contagious and can be transmitted from person to person through respiratory droplets when an infected person talks, coughs, or sneezes. The COVID-19 virus primarily attacks the respiratory system, causing symptoms such as fever, coughing, and difficulty breathing. The virus is most severe in older adults and those with underlying health conditions, but it can affect people of all ages. The pandemic has resulted in significant changes in daily life, such as widespread school closures, work-from-home policies, and restrictions on public gatherings. The economic impact of the pandemic has also been severe, with millions of people losing their jobs and businesses struggling to stay afloat.",
@@ -76,5 +80,16 @@
 			"unique_word_count": 88,
 			"fog_index": 16.05
 		}
+	},
+	"o6": {
+		"name": "064.ocr.txt",
+		"text": "动物是指能够感知和适应环境变化的一类生物。动物是指不具有光合作用的多细胞生物，包括无脊椎动物和脊椎动物两大类。无脊椎动物包括各种节肢动物、软体动物、刺胞动物等，脊椎动物则包括了鱼类、两栖动物、爬行动物、鸟类和哺乳动物等。动物是地球生物多样性的重要组成部分，也是人类社会的重要资源。",
+		"summary": {
+			"abstract": "本文介绍了动物这一类生物的概述。动物是指那些能够感知和适应环境变化的多细胞生物，包括无脊椎动物和脊椎动物两大类。无脊椎动物包括了节肢动物、软体动物和刺胞动物等，脊椎动物则包括了鱼类、两栖动物、爬行动物、鸟类和哺乳动物等。动物是地球生物多样性的重要组成部分，也是人类社会的重要资源。",
+			"word_count": 46,
+			"unique_word_count": 37,
+			"fog_index": 11.5
+		}
 	}
+  }
 }
